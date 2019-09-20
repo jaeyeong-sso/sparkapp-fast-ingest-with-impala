@@ -1,0 +1,36 @@
+{
+    "columns" : [
+        {"name":"appVer","type":"String"},
+        {"name":"osType","type":"String"},
+        {"name":"osVer","type":"String"},
+        {"name":"sdkVersion","type":"String"},
+        {"name":"terminalId","type":"String"},
+        {"name":"deviceName","type":"String"},
+        {"name":"country","type":"String"},
+        {"name":"mid","type":"String"},
+        {"name":"networkType","type":"String"},
+        {"name":"loginType","type":"String"},
+        {"name":"carrier","type":"String"},
+        {"name":"market","type":"String"},
+        {"name":"ts","type":"String"},
+        {"name":"clientIp","type":"String"},
+        {"name":"userKey","type":"String"},
+        {"name":"clientTs","type":"String"},
+        {"name":"clientSdkVer","type":"String"},
+        {"name":"sessionId","type":"String"},
+        {"name":"uniqueLogId","type":"String"},
+        {"name":"instanceId","type":"String"},
+        {"name":"encTerminalId","type":"String"},
+        {"name":"encMid","type":"String"},
+        {"name":"encUserKey","type":"String"},
+        {"name":"httpStatusCode","type":"String"}
+    ],
+    "partitions" : [
+        {"name":"dt","type":"String"},
+        {"name":"appid","type":"String"},
+        {"name":"storeid","type":"String"}
+    ],
+    "locations" : [
+        {"name":"Location:","type":"hdfs://inhouseraw/data/rawlog/common.db/hbaccess_write_a"}
+    ]
+}
