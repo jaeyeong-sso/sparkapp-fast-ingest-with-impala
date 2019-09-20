@@ -45,7 +45,7 @@
 
 ###### [Purpose] 
 - Generate a ZNode data set per each Impala table : to support Read/Write Lock. 
-<img width="717" alt="0809a500-96a9-11e9-84b2-9cf2790548ca" src="https://user-images.githubusercontent.com/10162969/63494550-e128ed00-c4f8-11e9-848b-0b501c8e57a8.png">
+<img width="717" alt="fast-ingest-zk-node-hierarchy" src="https://user-images.githubusercontent.com/10162969/65316586-3712b280-dbd5-11e9-9564-7abc99f8dd37.png">
 
 ###### [Usage] 
 - Run on the IDEA with parameter modification. <br>
