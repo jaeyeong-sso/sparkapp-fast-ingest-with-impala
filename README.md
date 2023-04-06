@@ -41,7 +41,7 @@
 
 <p>
 
-## OceanDataIngestInitializer
+## MetaDataIngestInitializer
 
 ###### [Purpose] 
 - Generate a ZNode data set per each Impala table : to support Read/Write Lock. 
@@ -49,5 +49,5 @@
 
 ###### [Usage] 
 - Run on the IDEA with parameter modification. <br>
-  [e.g] OceanDataIngestInitializer.initializePerTable("inhouse_common","hbaccess")
+  [e.g] MetaDataIngestInitializer.initializePerTable("inhouse_common","hbaccess")
 
